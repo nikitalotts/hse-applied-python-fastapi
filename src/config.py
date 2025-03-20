@@ -22,3 +22,4 @@ class Settings(BaseSettings):
     CODE_GENERATION_ATTEMPTS: int = int(os.getenv("CODE_GENERATION_ATTEMPTS"))
     CODE_GENERATION_SECRET: str = os.getenv("CODE_GENERATION_SECRET")
     SHORT_CODE_LENGTH: int = int(os.getenv("SHORT_CODE_LENGTH"))
+    SITE_IP: str = os.getenv("SITE_IP")

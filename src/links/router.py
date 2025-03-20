@@ -24,12 +24,6 @@ router = APIRouter(
 )
 
 
-@router.get("/test")
-async def test():
-    clear_outdated_links_task()
-    return {"mes": "fin"}
-
-
 @router.post("/shorten", response_model=ShortenLinkResponse, status_code=status.HTTP_201_CREATED)
 async def shorten_link(
         request: Request,
