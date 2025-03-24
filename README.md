@@ -178,7 +178,7 @@ SHORT_CODE_LENGTH = '9'
 SITE_IP = 'localhost'
 ```
 
-3. В корневой папке проекта вызывать `docker-compose build && docker-compose up -d`.
+3. В корневой папке проекта вызывать `docker compose build && docker compose up -d`.
 4. Подождать запуска. Сервис будет доступен по адресу: [http://localhost:8000](http://localhost:8000).
 
 
